@@ -3,6 +3,17 @@ server:
   max-http-header-size: 1048576
   tomcat:
     max-http-post-size: 1048576
+spring:
+  application:
+    name: archives-common
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/document
+    username: root
+    password: sheng
+mybatis-plus:
+  mapper-locations: classpath:com/lizi123/archives/mapper/*Mapper.xml
+  type-aliases-package: com.lizi123.archives.domain,com.lizi123.archives.query
 eureka:
   client:
     service-url:
