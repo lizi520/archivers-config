@@ -20,3 +20,7 @@ eureka:
       defaultZone: http://localhost:7001/eureka
   instance:
     prefer-ip-address: true
+#设置日志级别
+logging:
+  level:
+    com.xxx: debug
