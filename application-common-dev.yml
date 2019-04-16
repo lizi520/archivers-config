@@ -23,5 +23,5 @@ eureka:
 #设置日志级别
 logging:
   level:
-#    root:debug
-    com.xxx: debug
+    root:debug
+#    com.xxx: debug
