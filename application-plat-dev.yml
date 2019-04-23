@@ -9,7 +9,7 @@ spring:
     username: root
     password: sheng
 mybatis:
-  config-location: classpath:com/lizi123/archives/mapper/*Mapper.xml
+  mapper-locations: classpath:com/lizi123/archives/mapper/*Mapper.xml
   type-aliases-package: com.lizi123.archives.vo,com.lizi123.archives.daomain
 eureka:
   client:
